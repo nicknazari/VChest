@@ -1,10 +1,11 @@
-name: VChest
-main: io.github.nicknazari.VChest.VChest
+name: VChestReloaded
+main: io.github.nicknazari.VChestReloaded.VChestReloaded
 version: 1
 author: airpod_salesman
 commands:
   vc:
     description: Virtual chest to store items safely.
-    usage: /vchest 
-    permission:
-    permission-message:
+    usage: /vc
+  getinventories:
+    description: Debug, display inventories hashmap.
+    usage: /getinventories
